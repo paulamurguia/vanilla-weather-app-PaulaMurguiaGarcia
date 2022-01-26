@@ -1,3 +1,39 @@
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  padding: 20px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+}
+
 h1 {
-  color: blue;
+  color: #878787;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-top: 15px;
+}
+
+h2 {
+  color: #878787;
+  font-size: 20px;
+  padding: 9;
+  margin-top: 15px;
+}
+
+.temperature {
+  color: black;
+  margin: 50;
+  padding: 5;
+  font-size: 70px;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  font-size: 16px;
+  top: -36px;
 }
