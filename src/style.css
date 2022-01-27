@@ -4,7 +4,7 @@ h1 {
   font-weight: 600;
   line-height: 28px;
   margin-top: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 ul {
@@ -56,4 +56,11 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -50px;
+  text-decoration: none;
+}
+
+.units .active {
+  color: black;
+  cursor: default;
+  text-decoration: non;
 }
