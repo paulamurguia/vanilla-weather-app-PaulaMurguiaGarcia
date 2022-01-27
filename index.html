@@ -41,26 +41,35 @@
       </form>
       <div class="row">
         <div class="col-6">
-            <h4>🌤</h4>
-        </div>
-        <div class="col-6">
-            <h1 id="city">Houston</h1>
-            <ul>
-              <li id="date">
-                Friday 05:00
-              </li>
-              <li id="description">
-                Sunny
-              </li>
-            </ul>
-            <h2><div class="float-left">
+          <div class="clearfix weather-temperature">
+            <img src="https://gstatic.com/onebox/weather/64/sunny.png" alt="Clear" class="float-left"/>
+            <span>
                 <span class="temperature" id="temperature">75</span>
                 <span class="units">
                   <a href="#" id="fahrenheit-link">°F</a> |
                   <a href="#" id="celsius-link">°C</a>
                 </span>
-                </div>
-            </h2>
+              </span>
+          </div>
+        </div>
+        <div class="col-6">
+            <h1 id="city">Houston</h1>
+        <div class="col-6">
+               <ul>
+              <li id="date">
+                Friday 05:00
+              </li>
+              <li id="description"></li>
+            </ul>
+               <ul>
+              <li>
+                Humidity: <span id="humidity"></span>%
+              </li>
+              <li>
+                Wind:<span id="wind"></span> km-h
+              </li>
+            </ul>
+         </div>     
           </div>
         </div>
       </div>
